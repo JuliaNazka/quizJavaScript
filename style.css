@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-*, :root {
+*, 
+:root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +21,7 @@ body{
 main {
   padding:20px;
   max-width: 640px;
-  margin: 0 auto; /* o primeiro usa em cime e baixo e o segundo nos lados, no terceiro fica em baixo e no quarto fica cada um no sentido horário */
+  margin: 0 auto 64px; /* o primeiro usa em cime e baixo e o segundo nos lados, no terceiro fica em baixo e no quarto fica cada um no sentido horário */
 }
 
 header {
@@ -90,6 +91,7 @@ header h1{
   display: flex;
   align-items: center;
   gap: 8px;
+
   color: #E2E8F0;
 }
 
@@ -104,6 +106,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+
   flex-shrink: 0;
 }
 
